@@ -1,0 +1,12 @@
+# Top-most EditorConfig file
+root = true
+
+# Add a newline ending for every file
+[*]
+insert_final_newline = true
+
+# Set default charset and indentation
+[*.{php,html,js,css}]
+charset = utf-8
+indent_style = tab
+indent_size = 4

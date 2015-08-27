@@ -1,0 +1,11 @@
+Options -Indexes
+
+# CloudFlare support
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^polonibox.com$ [NC]
+RewriteCond %{SERVER_PORT} ^80$
+RewriteRule ^(.*)$ http://www.polonibox.com/$1 [R=301,L]
+
+RewriteEngine On
+RewriteRule ^pages/(.*)$ /?page=$1 [R=301,L]
+RewriteRule ^users/(.*)$ /?username=$1 [R=301,L]

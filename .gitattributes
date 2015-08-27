@@ -1,0 +1,16 @@
+# Automatically detect text files and perform LF normalization
+* text=auto
+
+# Visual Studio
+*.sln     merge=union text eol=crlf
+*.config  merge=union text eol=lf
+
+# C#
+*.cs      merge=union diff=csharp text eol=lf
+*.csproj  merge=union text eol=crlf
+
+# Web
+*.php text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.html text eol=lf

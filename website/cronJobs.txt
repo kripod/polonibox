@@ -1,0 +1,2 @@
+* * * * * wget -q -N https://poloniex.com/public?command=returnStaffNames -O /data/specialUsers.txt
+0 * * * * php -q /home/vsiaphpx/public_html/lib/queryStatistics.php
