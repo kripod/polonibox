@@ -2,7 +2,7 @@
 
 Easily check the legitimacy of [Poloniex][] trollbox users and prove the existence of conversations, avoiding scammers to gain reputation.
 
-[![Unmaintained](https://img.shields.io/maintenance/no/2015.svg)]()
+![Unmaintained](https://img.shields.io/maintenance/no/2015.svg)
 
 [Poloniex]: https://poloniex.com
 
